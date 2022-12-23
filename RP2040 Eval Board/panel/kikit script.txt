@@ -1,0 +1,11 @@
+C:\Users\Kyle-Home\Documents\MTE\Other\Website\youtube_projects\RP2040 Eval Board 12032022
+
+kikit panelize ^
+	--layout "grid; rows: 1; cols: 5" ^
+	--source "auto; tolerance: 60mm" ^
+	--tabs full ^
+	--cuts "vcuts; clearance: 0.5mm" ^
+	--framing "frame; width: 10mm; hspace: 1mm; vspace: 1mm; cuts: v" ^
+	--fiducials "3fid; hoffset: 15mm; voffset: 8mm; opening: 2mm" ^
+	--text "simple; hoffset: -15mm; voffset: -4mm; width: 2mm; height: 2mm; thickness: 0.4mm; hjustify: right; vjustify: right; text: RP2040 EVAL 1U ----->; anchor: br" ^
+	"RP2040 Eval Board.kicad_pcb" "panel/RP2040 Eval Board.kicad_pcb"
