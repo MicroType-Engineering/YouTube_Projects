@@ -1,0 +1,10 @@
+"C:\Users\Kyle-Home\Documents\MTE\Projects\YouTube_Projects\Layout V Cap Test Board\"
+
+kikit panelize ^
+	--layout "grid; rows: 1; cols: 1" ^
+	--source "auto; tolerance: 60mm" ^
+	--tabs full ^
+	--cuts "vcuts; clearance: 1mm" ^
+	--framing "frame; width: 10mm; hspace: 1mm; vspace: 1mm; cuts: v" ^
+	--fiducials "3fid; hoffset: 15mm; voffset: 8mm; opening: 2mm" ^
+	"Layout V Cap Test Board.kicad_pcb" "panel/Layout V Cap Test Board Panel.kicad_pcb"
