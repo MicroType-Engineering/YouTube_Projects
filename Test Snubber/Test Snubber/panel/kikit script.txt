@@ -1,0 +1,10 @@
+"C:\Users\Kyle-Home\Documents\MTE\Projects\YouTube_Projects\Test Snubber\Test Snubber\"
+
+kikit panelize ^
+	--layout "grid; rows: 1; cols: 1" ^
+	--source "auto; tolerance: 60mm" ^
+	--tabs full ^
+	--cuts "vcuts; clearance: 1mm" ^
+	--framing "frame; width: 10mm; hspace: 1mm; vspace: 1mm; cuts: v" ^
+	--fiducials "3fid; hoffset: 15mm; voffset: 8mm; opening: 2mm" ^
+	"Test Snubber.kicad_pcb" "panel/Test Snubber Panel.kicad_pcb"
