@@ -5,6 +5,6 @@ kikit panelize ^
 	--source "auto; tolerance: 60mm" ^
 	--tabs full ^
 	--cuts "vcuts; clearance: 1mm" ^
-	--framing "frame; width: 10mm; hspace: 1mm; vspace: 1mm; cuts: v" ^
+	--framing "frame; width: 10mm; mintotalheight: 60mm; mintotalwidth: 60mm; hspace: 1mm; vspace: 1mm; cuts: v" ^
 	--fiducials "3fid; hoffset: 15mm; voffset: 8mm; opening: 2mm" ^
 	"Test Snubber.kicad_pcb" "panel/Test Snubber Panel.kicad_pcb"
